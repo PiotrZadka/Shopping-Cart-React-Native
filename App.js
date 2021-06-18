@@ -18,7 +18,7 @@ const App = () => {
 
   // Updating cart with product from Products Page works just fine, 
   // but the moment I visit the cart and product page again the context doesn't update the value. 
-  // My guess would be to use useEffect on CartPage, or scrap the idea of context and apply Redux which I need to upskill myself.
+  // My guess would be to use useEffect on CartPage, or scrap the idea of context and apply Redux which is my area of improvement
 
   const updateCartContent = ( item ) =>{
     console.log(item)
